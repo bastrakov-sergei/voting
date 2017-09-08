@@ -24,6 +24,7 @@
     "chai-immutable": "^2.0.0-alpha.1"
   },
   "dependencies": {
-    "immutable": "^3.8.1"
+    "immutable": "^3.8.1",
+    "redux": "^3.7.2",
   }
 }
