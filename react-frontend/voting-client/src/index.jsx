@@ -1,10 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Voting from './components/Voting'
+import { 
+    BrowserRouter
+} from 'react-router-dom'
 
-const pair = ['Trainspotting', '28 Days Later']
+import App from './components/App'
 
 ReactDOM.render(
-    <Voting pair={pair} winner="Trainspotting"/>,
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>,
     document.getElementById('app')
 )
